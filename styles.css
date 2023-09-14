@@ -5,13 +5,19 @@
 	height:500px;
 	display:flex;
 	justify-content:space-between;
+	color:white;
+	gap:2%;
+	
 }
 .item{
 	width: 100px;
 	height:100px;
-	background-color:black
+	background-color:black;
 }
 
 @media screen and (min-width:768px){
-	flex-wrap:wrap!important;
+	
+	.holder{
+	flex-wrap:wrap;
+	}
 }
