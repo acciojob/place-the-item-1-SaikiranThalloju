@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+.holder{
+	width: 500px;
+	height:500px;
+	display:flex;
+	justify-content:space-between;
+}
+.item{
+	width: 100px;
+	height:100px;
+	background-color:black
+}
+
+@media screen and (min-width:768px){
+	flex-wrap:wrap!important;
+}
